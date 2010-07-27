@@ -1,0 +1,26 @@
+State of org.ofono.* APIs
+--------------------------------------------------------------------------------------------
+Manager - implemented
+SmsManager - implemented (what about class 0 msgs?)
+
+Modem - mostly implemented (Name and Features properties missing)
+NetworkRegistration - mostly implemented (ProposeScan method and Operators property missing)
+VoiceCall - mostly implemented (DisconnectReason missing)
+SimManager - mostly implemented (missing some properies, rw access to them and works only with PIN code)
+
+SupplementaryServices - partially implemented (Cancel method is just stub, others doesn't really work as in specs)
+VoiceCallManager - partialy implemented (no MultipartyCalls support etc.)
+CallForwarding - partially implemented (ability to set single call forwarding setting is missing)
+
+RadioSettings - non-working stub (is there FSO function for that?)
+Phonebook - non-working stub
+
+NetworkOperator - unimplemented
+CallBarring - unimplemented
+CallMeter - unimplemented
+CallSettings - unimplemented
+CallVolume - unimplemented
+CellBroadcast - unimplemented
+DataConnectionManager - unimplemented
+MessageWaiting - unimplemented
+SimToolkit - unimplemented
